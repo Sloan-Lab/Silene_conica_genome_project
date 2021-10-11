@@ -1,1 +1,1 @@
-# Repo for keeping up with Silene conica genome project
+# Repo for keeping up with *Silene conica* genome project
