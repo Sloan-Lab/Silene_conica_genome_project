@@ -1,1 +1,1 @@
-# -Silene_conica_genome_project
+# Silene_conica_genome_project
