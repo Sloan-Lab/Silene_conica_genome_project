@@ -11,7 +11,7 @@ grep "DNA\|RC\|LTR\|LINE\|SINE" consensi.fa.classified | sed 's/>//g' | awk '{pr
 
 # Let's linearize fasta sequences (see fastx-toolkit, http://hannonlab.cshl.edu/fastx_toolkit/commandline.html)
 fasta_formatter -i consensi.fa.classified -o conica_assembly-families.fa -w 0
-while read line; grep -A1 $line conica_assembly-families.fa >> conica_TEs.fa; done < conica_TEs
+#while read line; grep -A1 $line conica_assembly-families.fa >> conica_TEs.fa; done < conica_TEs
 
 # Let's extract the target TE families we want masked (see seqtk, https://github.com/lh3/seqtk)
 seqtk subseq conica_assembly-families.fa conica_TEs > conica_TEs.fa
