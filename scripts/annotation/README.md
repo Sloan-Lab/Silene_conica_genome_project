@@ -12,7 +12,7 @@ fasta_merge -d sconica_rnd1_master_datastore_index.log
 # GFF w/o the sequences
 gff3_merge -n -s -d sconica_rnd1_master_datastore_index.log > sconica_rnd1.all.maker.noseq.gff
 ```
-##### Also get a summary (summary.sh originates from the falling repo https://github.com/ISUgenomics/common_scripts.git)
+##### Also get a summary (summary.sh originates from the following repo https://github.com/ISUgenomics/common_scripts.git)
 `less sconica_rnd1.all.maker.gff |awk '$3=="mRNA"' |grep "mRNA-1" |awk '{print $5-$4}' | summary.sh`
 
 
