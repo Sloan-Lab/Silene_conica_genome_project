@@ -1,1 +1,5 @@
-# Repo for keeping up with *Silene conica* genome project
+# Chromosome-level genome assembly for the angiosperm *Silene conica*
+#### Peter D. Fields, Melody M. Weber, Gus Waneka, Amanda K. Broz, Daniel B. Sloan
+
+### Abstract 
+### The angiosperm genus Silene has been the subject of extensive study in the field of ecology and evolution, but the availability of high-quality reference genome sequences has been limited for this group. Here, we report a chromosome-level assembly for the genome of Silene conica based on PacBio HiFi, Hi-C and Bionano technologies. The assembly produced 10 scaffolds (one per chromosome) with a total length of 862 Mb and only ~1% gap content. These results confirm previous observations that S. conica and its relatives have a reduced base chromosome number relative to the genus’s ancestral state of 12. Silene conica has an exceptionally large mitochondrial genome (>11 Mb), predominantly consisting of sequence of unknown origins. Analysis of shared sequence content suggests that it is unlikely that transfer of nuclear DNA is the primary driver of this mitochondrial genome expansion. More generally, this assembly should provide a valuable resource for future genomic studies in Silene, including comparative analyses with related species that recently evolved sex chromosomes.
