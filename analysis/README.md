@@ -176,3 +176,18 @@ Max:    91324
         44      Fragmented BUSCOs (F)
         177     Missing BUSCOs (M)
         2121    Total BUSCO groups searched
+
+#### NUMT/NUPT, gene density, and methylation plots
+
+Chromosomal coverage for these features were summarized from blast output and bed files with the following scripts, which require BioPerl and the [sloan.pm Perl module](https://github.com/dbsloan/perl_modules).
+
+- blast_coverage_parse.pl
+- blast_hit_summary.pl
+- coverage_sliding_window.pl
+- genedensity_sliding_window.pl
+- methylation_sliding_window.pl
+
+Plots were generated with the following R scripts.
+
+- methylation_plus_density_plot.R
+- numt_nupt_plot.R
